@@ -1,0 +1,529 @@
+﻿/*=========================================================================================
+  File Name: ImPark DijiDemi Harici Style
+  Description: ALL EXT CSS
+  ----------------------------------------------------------------------------------------
+  Author: Ali Özcan
+  Date: 2021-02-02
+  Author URL: https://www.impark.com.tr
+  ----------------------------------------------------------------------------------------
+  © IMPARK 2021 - All Right Reserved 
+==========================================================================================*/
+.soruDogruCevap {
+    font-size: 16px;
+    color: #00cfe8;
+}
+
+.soruZorlukAdi {
+    font-size: 10px;
+    color: #00cfe8;
+}
+
+#button-addon2 {
+    z-index: 1;
+}
+
+.breadcrumb-item {
+    border-right: none;
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+}
+
+.breadcrumb .breadcrumb-item + .breadcrumb-item:before {
+    content: "\e847";
+    font-weight: 100;
+}
+
+.breadcrumb .breadcrumb-item + .breadcrumb-item::before {
+    padding-top: 0px !important;
+}
+
+.tabCardHead > button {
+    text-align: left;
+}
+
+.dvScreen_test {
+    margin-top: 10px;
+}
+
+.smallders .list-group .list-group-item.dersler {
+    padding: 15px 20px 10px;
+}
+
+.smallders .list-group .list-group-item {
+    margin-bottom: 8px;
+}
+
+    .smallders .list-group .list-group-item.dersler h1 {
+        font-size: 15px;
+    }
+
+
+.smallders.scroll-area {
+    height: 185px;
+}
+
+.extrasmallders.scroll-area {
+    height: 122px;
+}
+
+.smalltable .ao-table-row-flex-cols .row {
+    min-height: 60px;
+}
+
+.ao-table-row-flex-cols .row p.datetime {
+    display: block;
+    min-height: auto;
+    margin-top: 0;
+    line-height: 0.6rem;
+}
+
+table.data-list-view.smalltable .cl-order h4 {
+    font: normal normal bold 15px/10px Poppins,sans-serif
+}
+
+table.data-list-view.smalltable .cl-text h3 {
+    font: normal normal bold 10px/10px Poppins,sans-serif
+}
+
+table.data-list-view.smalltable .cl-text span {
+    font: normal normal normal 9px/11px Poppins,sans-serif;
+    color: #00cfe8;
+}
+
+table.data-list-view .cl-text .text-subeler {
+    font: normal normal normal 9px/11px Poppins,sans-serif;
+    color: #00cfe8;
+}
+
+table.data-list-view .cl-text .text-paylasilan-subeler {
+    font: normal normal normal 10px/12px Poppins,sans-serif;
+    color: #00cfe8;
+}
+
+table.data-list-view.dataTable.smalltable {
+    border-spacing: 0 0.35rem;
+}
+
+.card-body .card .card-body {
+    padding: 0.1rem;
+}
+
+#anlatimTab > li {
+    padding: 10px;
+    background: #fff;
+    border-radius: 10px 10px 0 0;
+    border-bottom: 5px solid #fff;
+}
+
+#anlatimTab.nav.nav-tabs {
+    margin-bottom: 0rem;
+}
+
+.anlatim #accordion {
+    width: calc(100%);
+}
+
+#anlatimTab .nav.nav-tabs .nav-item .nav-link {
+    font-size: 1.15rem;
+}
+
+    #anlatimTab .nav.nav-tabs .nav-item .nav-link.active {
+        color: #f0c724;
+    }
+
+        #anlatimTab .nav.nav-tabs .nav-item .nav-link.active::after {
+            background: linear-gradient(30deg,#f0e767,rgba(249, 186, 0, 0.5)) !important;
+            box-shadow: 0 0 8px 0 rgba(218, 255, 37, 0.5) !important;
+        }
+
+.book .card {
+    height: 400px;
+    overflow: hidden;
+}
+
+.book .card-img.img-fluid.mb-1 {
+    height: auto;
+    max-height: 270px;
+    width: auto;
+}
+
+.nobackground .modal-dialog {
+    margin: 30px auto;
+}
+
+.nobackground .modal-body {
+    position: relative;
+    padding: 0px;
+}
+
+.nobackground .close {
+    position: absolute;
+    right: 0px;
+    top: -25px;
+    z-index: 999;
+    font-size: 2rem;
+    font-weight: normal;
+    color: #262626;
+    opacity: 1;
+}
+
+#pricing-plan {
+    padding: 5px 0;
+}
+
+.pricing-card .card-body {
+    padding: 1rem;
+}
+
+.pricing-card .card.popular {
+    border: 1px solid #7367F0
+}
+
+.pricing-card .list-group-circle {
+    font-weight: 500;
+    color: #5E5873
+}
+
+.pricing.card {
+    padding: 1px;
+}
+
+.pricing-card .annual-plan {
+    margin-bottom: 1.7rem
+}
+
+    .pricing-card .annual-plan .plan-price sup {
+        top: -1.5rem;
+        left: .2rem
+    }
+
+    .pricing-card .annual-plan .plan-price span {
+        font-size: 3.5rem;
+        line-height: .8
+    }
+
+    .pricing-card .annual-plan .plan-price sub {
+        bottom: 0;
+        right: .14rem
+    }
+
+    .pricing-card .annual-plan .plan-discounted-price sup {
+        top: -1.5rem;
+        left: .2rem
+    }
+
+    .pricing-card .annual-plan .plan-discounted-price span {
+        font-size: 3.5rem;
+        line-height: .8
+    }
+
+    .pricing-card .annual-plan .plan-discounted-price sub {
+        bottom: 0;
+        right: .14rem
+    }
+
+    .pricing-card .annual-plan .annual-pricing {
+        position: absolute;
+        margin: auto;
+        left: 0;
+        right: 0
+    }
+
+.pricing-free-trial {
+    height: 16.71rem;
+    background-color: rgba(186,191,199,.12);
+    margin: 7.5rem -2rem 6.3rem
+}
+
+    .pricing-free-trial .row {
+        margin: 0
+    }
+
+    .pricing-free-trial .pricing-trial-content {
+        padding: 0 1rem
+    }
+
+        .pricing-free-trial .pricing-trial-content img {
+            position: relative;
+            top: -3.1rem
+        }
+
+@media (max-width:767.98px) {
+    .pricing-free-trial {
+        height: auto
+    }
+
+        .pricing-free-trial .pricing-trial-content {
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+            -webkit-flex-direction: column;
+            -ms-flex-direction: column;
+            flex-direction: column;
+            -webkit-box-align: center;
+            -webkit-align-items: center;
+            -ms-flex-align: center;
+            align-items: center
+        }
+
+            .pricing-free-trial .pricing-trial-content .pricing-trial-img {
+                top: 0;
+                margin-top: 2rem;
+                height: 150px
+            }
+}
+
+@media (max-width:575.98px) {
+    .pricing-free-trial {
+        margin-right: -1.2rem;
+        margin-left: -1.2rem
+    }
+}
+
+.list-group .list-group-item {
+    line-height: 1
+}
+
+    .list-group .list-group-item i, .list-group .list-group-item svg {
+        position: relative
+    }
+
+.list-group .list-group-item-action:focus {
+    outline: 0
+}
+
+.list-group .list-group-item-action.active h1, .list-group .list-group-item-action.active h2, .list-group .list-group-item-action.active h3, .list-group .list-group-item-action.active h4, .list-group .list-group-item-action.active h5, .list-group .list-group-item-action.active h6, .list-group .list-group-item-action:active h1, .list-group .list-group-item-action:active h2, .list-group .list-group-item-action:active h3, .list-group .list-group-item-action:active h4, .list-group .list-group-item-action:active h5, .list-group .list-group-item-action:active h6 {
+    color: #FFF
+}
+
+.list-group .list-group-item-action small {
+    color: #B9B9C3 !important
+}
+
+.list-group.list-group-circle {
+    border: none
+}
+
+    .list-group.list-group-circle .list-group-item {
+        border: none;
+        position: relative;
+        padding-left: 1.5rem
+    }
+
+        .list-group.list-group-circle .list-group-item:after {
+            content: ' ';
+            background-image: url('data:image/svg+xml,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' width=\'24\' height=\'24\' viewBox=\'0 0 24 24\' fill=\'none\' stroke=\'%236e6b7b\' stroke-width=\'2\' stroke-linecap=\'round\' stroke-linejoin=\'round\' class=\'feather feather-circle\'%3E%3Ccircle cx=\'12\' cy=\'12\' r=\'10\'%3E%3C/circle%3E%3C/svg%3E');
+            background-repeat: no-repeat;
+            background-position: center;
+            color: #6E6B7B;
+            background-size: 10px;
+            position: absolute;
+            height: 10px;
+            width: 10px;
+            top: 1.15rem;
+            left: 0
+        }
+
+        .list-group.list-group-circle .list-group-item:hover {
+            background-color: transparent
+        }
+
+.list-group-item.gu-mirror {
+    border-radius: 0
+}
+
+/*PRICING TABLE*/
+/* Pricing Tables */
+.pricing-table.pricing-table-style-1 {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+    .pricing-table.pricing-table-style-1 [class^='col'] {
+        border: 1px solid #EDEDEE;
+        border-right-color: transparent;
+    }
+
+        .pricing-table.pricing-table-style-1 [class^='col']:last-child {
+            border-right-color: #EDEDEE;
+        }
+
+.pricing-table .plan {
+    text-align: center;
+}
+
+.pricing-table .plan-title {
+    border-bottom: 1px solid #EDEDEE;
+    padding: 25.6px 0;
+    padding: 1.6rem 0;
+}
+
+    .pricing-table .plan-title h3 {
+        font-size: 1.0769230769em;
+        margin: 0;
+        padding: 0;
+        color: #969696;
+    }
+
+    .pricing-table .plan-title em {
+        font-family: "Georgia", sans-serif;
+        font-size: 1em;
+        color: #a3a3a3;
+        margin: 0;
+        padding: 0;
+        opacity: 0.6;
+    }
+
+.pricing-table .plan-price {
+    padding: 40px 0 19.2px;
+    padding: 2.5rem 0 1.2rem;
+}
+
+    .pricing-table .plan-price strong {
+        font-size: 1.992em;
+        color: #2E3237;
+        font-weight: 800;
+    }
+
+        .pricing-table .plan-price strong em {
+            font-size: 0.5em;
+            font-style: normal;
+        }
+
+    .pricing-table .plan-price p {
+        font-family: "Georgia", sans-serif;
+        font-size: 1.2307692308em;
+        color: #a3a3a3;
+        margin: 0;
+    }
+
+.pricing-table .plan-detail {
+    padding: 0 0 32px;
+    padding: 0 0 2rem;
+}
+
+    .pricing-table .plan-detail ul {
+        list-style: none;
+        margin: 0 0 24px;
+        margin: 0 0 1.5rem;
+        padding: 0;
+    }
+
+        .pricing-table .plan-detail ul li {
+            margin: 0;
+            padding: 8px 0;
+            padding: 0.5rem 0;
+            border-bottom: 1px solid #EDEDEE;
+        }
+
+            .pricing-table .plan-detail ul li:first-child {
+                border-top: 1px solid #EDEDEE;
+            }
+
+.pricing-table .plan.plan-most-popular {
+    z-index: 1;
+}
+
+@media (min-width: 992px) {
+    .pricing-table .plan.plan-most-popular {
+        margin-top: -0.8rem;
+    }
+}
+
+.pricing-table .plan.plan-most-popular .plan-title h3, .pricing-table .plan.plan-most-popular .plan-title em {
+    color: #FFF;
+}
+
+.pricing-table.pricing-table-style-2 table td, .pricing-table.pricing-table-style-2 table th {
+    border: 0;
+    border-right: 1px solid #EDEDEE;
+    text-align: center;
+}
+
+.pricing-table.pricing-table-style-2 table td {
+    border-left: 1px solid #EDEDEE;
+}
+
+    .pricing-table.pricing-table-style-2 table td:first-child {
+        text-align: right;
+    }
+
+.pricing-table.pricing-table-style-2 table tbody tr:nth-of-type(2n+1) {
+    background: rgba(0, 0, 0, 0.02);
+}
+
+.pricing-table.pricing-table-style-2 table thead tr th {
+    vertical-align: top;
+    border-bottom: 1px solid #EDEDEE;
+    border-top: 1px solid #EDEDEE;
+    background: rgba(0, 0, 0, 0.02);
+}
+
+    .pricing-table.pricing-table-style-2 table thead tr th:first-child {
+        border-top: 0;
+        background: transparent;
+    }
+
+.pricing-table.pricing-table-style-2 table tr:last-child {
+    background: transparent !important;
+}
+
+    .pricing-table.pricing-table-style-2 table tr:last-child td {
+        border-top: 1px solid #EDEDEE;
+        border-left: 0;
+    }
+
+        .pricing-table.pricing-table-style-2 table tr:last-child td.plan-action {
+            border-bottom: 1px solid #EDEDEE;
+        }
+
+.pricing-table.pricing-table-style-2 .plan.plan-most-popular {
+    position: relative;
+}
+
+@media (min-width: 992px) {
+    .pricing-table.pricing-table-style-2 .plan.plan-most-popular {
+        margin-top: -0.8rem;
+    }
+}
+
+.pricing-table.pricing-table-style-2 .plan.plan-most-popular .plan-title h3, .pricing-table.pricing-table-style-2 .plan.plan-most-popular .plan-title em {
+    color: #FFF;
+}
+
+.modal-satinal {
+    max-width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+/**/
+
+.main-menu-footer .header .version {
+    text-align: center;
+    color: #a3a3a3;
+    font: italic small-caps bold 9px/0px Poppins;
+}
+
+.nav.nav-tabs .nav-item .nav-link:not(.active):after {
+    content: attr(data-before);
+    height: 2px;
+    width: 100%;
+    left: 0;
+    position: absolute;
+    bottom: 0;
+    top: 100%;
+    background: #ddd !important;
+    transform: translateY(0);
+    transition: .2s linear
+}
+
+.errorValidate {
+    color: #ea5455;
+}
+
+.footer-btn img {
+    max-width: 85px;
+}
+
+.brand-logo img {
+    margin: 20px 0;
+}

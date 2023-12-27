@@ -1,0 +1,154 @@
+﻿/*GENEL*/
+:root {
+    --im-bg: #93d5ed; /*#10163a*/
+    --im - a - theme - color: #93d5ed; /*#10163a;*/
+    --im - a - white - color: #fff;
+    --im - a - focus - color: #93d5ed; /*#364574;*/
+}
+
+
+/*!
+  EÐÝTÝM PARKI ve TÜREVLERÝ ÝÇÝN AÇILACAK
+
+
+@import url(https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600);
+
+.navigation {
+    font-family: "Montserrat", Helvetica, Arial, serif;
+}
+
+a {
+    color: var(--im-a-theme-color);
+}
+
+.navbar-light {
+    background-color: var(--im-bg);
+}
+
+.main-menu.menu-light {
+    background-color: var(--im-bg);
+}
+    .main-menu.menu-light .navigation {
+        background-color: var(--im-bg);
+    }
+
+        .main-menu.menu-light .navigation li a {
+            color: var(--im-a-white-color);
+        }
+        .main-menu.menu-light .navigation > li ul li {
+            color: var(--im-a-white-color);
+        }
+        .main-menu.menu-light .navigation > li ul .hover > a, .main-menu.menu-light .navigation > li ul:hover > a {
+            color: var(--im-a-white-color);
+        }
+        .main-menu.menu-light .navigation > li.open > a, .main-menu.menu-light .navigation > li.sidebar-group-active > a,
+        .main-menu.menu-light .navigation > li ul .open > a, .main-menu.menu-light .navigation > li ul .sidebar-group-active > a {
+            color: var(--im-a-white-color);
+        }
+        .main-menu.menu-light .navigation > li > ul {
+            background-color: var(--im-bg);
+        }
+        .main-menu.menu-light .navigation > li.open > a, .main-menu.menu-light .navigation > li.sidebar-group-active > a {
+            background-color: var(--im-bg);
+        }
+
+.main-menu .shadow-bottom {
+    background: linear-gradient(var(--im-bg) 41%,rgba(255,255,255,.11) 95%,rgba(255,255,255,0));
+}
+
+.card-body .green {
+    background: linear-gradient(118deg, #7367f0, rgba(115, 103, 240, 0.7));
+}
+
+.btn-outline-primary, .btn-outline-primary:hover {
+    border: 1px solid var(--im-bg);
+    color: var(--im-a-theme-color);
+}
+
+.text-primary,
+.dropdown-menu a{
+    color: var(--im-a-theme-color) !important;
+}
+
+.badge-video {
+    border-color: var(--im-a-theme-color);
+}
+
+.badge.badge-primary,
+.pagination .page-item.active .page-link,
+.btn-primary {
+    border-color: #4839eb !important;
+    background-color: #7367f0 !important;
+    color: var(--im-a-white-color) !important;
+}
+.primary, .btn-flat-primary ~ .dropdown-menu .dropdown-item:not(.active):not(:active):hover, .btn-outline-primary ~ .dropdown-menu .dropdown-item:not(.active):not(:active):hover, .btn-primary ~ .dropdown-menu .dropdown-item:not(.active):not(:active):hover {
+    color: var(--im-a-theme-color) !important;
+}
+html .pace .pace-progress,
+.nav.nav-tabs .nav-item .nav-link.active::after,
+.header-navbar .navbar-container ul.nav li.dropdown-user .dropdown-menu-right .dropdown-item:active, .header-navbar .navbar-container ul.nav li.dropdown-user .dropdown-menu-right .dropdown-item:hover,
+.fcSpnTitle,
+.fc .fc-button:not(:disabled).fc-button-active,
+.fc .fc-button {
+    background-color: var(--im-bg) !important;
+}
+.swiper-slide > div > button.btn-primary {
+    border-color: #4839eb !important;
+    background-color: #7367f0 !important;
+}
+.swiper-slide > div > button.btn-primary:hover,
+.swiper-slide > div > button.btn-primary:focus {
+    border-color: var(--im-a-focus-color) !important;
+    background-color: var(--im-a-focus-color) !important;
+}
+.swiper-slide .btn:hover,
+.nav.nav-tabs .nav-item .nav-link.active {
+    color: var(--im-a-theme-color);
+}
+.active-ders-button {
+    border-color: var(--im-bg) !important;
+    background-color: var(--im-bg) !important;
+}
+.btn-primary:active, .btn-primary:focus {
+    color: var(--im-a-focus-color);
+}
+table.data-list-view .cl-actions .cl-action .feather,
+table.data-list-view .cl-text .text-paylasilan-subeler,
+table.data-list-view .cl-text .text-subeler {
+    color: var(--im-a-theme-color);
+}
+.badge-video .fa-play {
+    color: var(--im-a-theme-color);
+}
+table.data-list-view.smalltable .cl-text span {
+    color: var(--im-a-theme-color);
+}
+.fcSpnTitle {
+    border-bottom:none;
+}
+.dropdown-notification .dropdown-menu-header {
+    background-color: var(--im-bg);
+}
+.dropdown-notification .dropdown-menu.dropdown-menu-right:before {
+    background: var(--im-bg);
+    border-color: var(--im-bg)
+}
+.list-group-item.active {
+    background-color: #7367f0;
+    border-color: #7367f0;
+}
+
+#dashboard-analytics .bg-analytics {
+    background: linear-gradient(118deg, #7367f0, rgba(115, 103, 240, 0.7))
+}
+.header-navbar .navbar-container ul.nav li i.ficon,
+.header-navbar .navbar-container ul.nav li a.dropdown-user-link .user-name {
+    color: #fff;
+}
+
+.main-menu.menu-light .navigation > li{
+    padding:5px 0;
+}
+*/
+    
+/*# sourceMappingURL=imTheme.min.css.map */
